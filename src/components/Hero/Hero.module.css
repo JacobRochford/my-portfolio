@@ -1,0 +1,14 @@
+.hero {
+  font-family:  courgette;
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  color: rgb(113, 242, 252);
+  font-family: 'kalam';
+  font-weight: 300;
+  display: flex;
+  justify-content: flex-end;
+}
+
