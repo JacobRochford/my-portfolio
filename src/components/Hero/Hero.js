@@ -1,15 +1,13 @@
 import IconContainer from "../IconContainer/IconContainer";
-import styles from './Hero.module.css';
+import { StyledHero } from "./Hero.styled";
 
 const Hero = () => {
   return (
-    <div>
-      <h1 className={styles.hero}>
-        Jacob Rochford
-      </h1>
-      <p className={styles.text}>Web Developer</p>
+    <StyledHero>
+      <h1>Jacob Rochford</h1>
+      <p>Software Developer</p>
       <IconContainer />
-    </div>
+    </StyledHero>
   );
 }
 

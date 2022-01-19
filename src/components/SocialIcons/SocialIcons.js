@@ -1,12 +1,16 @@
-import React from 'react'
-import styles from './SocialIcons.module.css';
+import { StyledSocialIcons } from "./SocialIcons.styled";
 
 const SocialIcons = ({children, href, rel, target, title}) => {
   return (
-    <a className={styles.div} href={href} rel={rel} target={target} title={title}>
+    <StyledSocialIcons
+      href={href}
+      rel={rel}
+      target={target}
+      title={title}
+    >
       {children}
-    </a>
-  )
+    </StyledSocialIcons>
+  );
 }
 
 export default SocialIcons;

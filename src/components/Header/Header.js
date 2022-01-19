@@ -1,9 +1,8 @@
+import React from 'react'
+import { StyledHeader } from './Header.styled'
 
-const Header = () => {
-  return (
-    <header>
-    </header>
-  );
-};
+const Logo = () => {
+  return <StyledHeader>{"{ ...JR }"}</StyledHeader>;
+}
 
-export default Header;
+export default Logo

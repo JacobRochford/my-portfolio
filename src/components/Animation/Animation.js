@@ -1,7 +1,7 @@
-import styles from './BackgroundAnimation.module.css';
+import styles from './Animation.module.css';
 import React from "react";
 
-const BackgroundAnimation = () => (
+const Animation = () => (
   <div className={styles.animation}>
     <svg
       className="BgAnimation__svg"
@@ -363,4 +363,4 @@ const BackgroundAnimation = () => (
   </div>
 );
 
-export default BackgroundAnimation;
+export default Animation;

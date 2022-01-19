@@ -3,20 +3,19 @@ import {
   AiOutlineLinkedin,
   AiFillFileText,
   AiOutlineProject,
-  AiFillLinkedin,
+  AiOutlineMail,
 } from "react-icons/ai";
-import { Link, NavLink } from "react-router-dom";
 import SocialIcons from "../SocialIcons/SocialIcons";
-import styles from './IconContainer.module.css'
+import { StyledIconContainer } from "./IconContainer.styled";
 
 const IconContainer = () => {
   return (
-    <div className={styles.container}>
+    <StyledIconContainer>
       <SocialIcons
         target="_blank"
         href="https://linkedin.com/in/Jacob-Rochford/"
         rel="noopener noreferrer"
-        title="Link to linkedin profile."
+        title="Jacob's LinkedIn"
       >
         <AiOutlineLinkedin />
       </SocialIcons>
@@ -24,7 +23,7 @@ const IconContainer = () => {
         target="_blank"
         href="https://github.com/JacobRochford/"
         rel="noopener noreferrer"
-        title="Link to github profile."
+        title="Jacob's GitHub"
       >
         <AiFillGithub />
       </SocialIcons>
@@ -32,11 +31,14 @@ const IconContainer = () => {
         target="_blank"
         href="https://1drv.ms/w/s!AgTm-w-g01XXgqtbWsBhC-ezJ6In3w?e=9PBA6X"
         rel="noopener noreferrer"
-        title="Link to resume."
+        title="Jacob's Resume"
       >
         <AiFillFileText />
       </SocialIcons>
-    </div>
+      <SocialIcons target="_blank" href='mailto:jrochford357@gmail.com' title="Send Email">
+        <AiOutlineMail />
+      </SocialIcons>
+    </StyledIconContainer>
   );
 };
 
