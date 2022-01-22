@@ -1,8 +1,7 @@
-import styles from './Animation.module.css';
-import React from "react";
+import { StyledAnimation } from "./Animation.styled";
 
 const Animation = () => (
-  <div className={styles.animation}>
+  <StyledAnimation>
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
@@ -360,7 +359,7 @@ const Animation = () => (
         </linearGradient>
       </defs>
     </svg>
-  </div>
+  </StyledAnimation>
 );
 
 export default Animation;
