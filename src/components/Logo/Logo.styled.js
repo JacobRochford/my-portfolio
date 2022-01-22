@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const StyledHeader = styled.header`
+export const StyledLogo = styled.div`
   color: rgb(113, 242, 252);
   display: flex;
   flex-direction: row-reverse;
