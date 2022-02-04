@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const StyledContainer = styled.div`
+export const StyledContainer = styled.main`
   display: grid;
   padding: 5rem;
   max-width: 900px;

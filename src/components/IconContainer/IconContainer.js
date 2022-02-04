@@ -2,7 +2,6 @@ import {
   AiFillGithub,
   AiOutlineLinkedin,
   AiFillFileText,
-  AiOutlineProject,
   AiOutlineMail,
 } from "react-icons/ai";
 import SocialIcons from "../SocialIcons/SocialIcons";

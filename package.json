@@ -1,5 +1,6 @@
 {
-  "name": "my-portfolio",
+  "name": "jacobs-portfolio",
+  "description": "Jacob's Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
